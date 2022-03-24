@@ -38,7 +38,8 @@ export const registerUser =(user)=>async dispatch=>{
 
     export const logoutUser =() =>dispatch=>{
         localStorage.removeItem('currentUser')
-        window.location.href='/login'
+        localStorage.removeItem('cartItems')
+        window.location.href='/'
     }
 
 

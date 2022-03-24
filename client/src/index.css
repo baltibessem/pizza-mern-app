@@ -10,6 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -46,6 +47,15 @@ color:  black !important;
     border-color: black !important;
   }
 
+    h4 {
+      font-size: 50px !important;
+      font-family: 'Hurricane', cursive !important;
+    }
+    h6 {
+      font-family: 'Hurricane', cursive !important;
+      font-size: 30px !important;
+
+    }
   .btn{
     background-color: red !important;
     color : white !important ;
